@@ -1,0 +1,18 @@
+import numpy as np
+
+# Create a 3D array x of shape (3, 1, 5)
+x = np.array([[[1, 2, 3, 4, 5]],
+              [[6, 7, 8, 9, 10]],
+              [[11, 12, 13, 14, 15]]])
+print(x)
+
+# # Create a 2D array y of shape (3, 5)
+# y = np.array([[10, 20, 30, 40, 50],
+#               [15, 25, 35, 45, 55],
+#               [20, 30, 40, 50, 60]])
+
+# # Add x and y using broadcasting
+# result = x + y
+
+
+
